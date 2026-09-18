@@ -6,7 +6,7 @@ DATE:10/09/2026
 VERSION:1
 */
 
-#include <stdio.h> //scanf(), printf()
+#include <stdio.h> 
 
 
 int main() {
