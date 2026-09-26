@@ -20,18 +20,18 @@ int main() {
 	if (water_units_consumed<=30) {
 		amount_to_pay=20;
 		total_water_bill=water_units_consumed*amount_to_pay;
-		printf("Total water bill= %f kes \n",total_water_bill);
+		printf("Total water bill= %.2f kes \n",total_water_bill);
 	}
 	else if (water_units_consumed>=31 &&water_units_consumed<=60){
 		amount_to_pay=25;
 		total_water_bill=water_units_consumed*amount_to_pay;
-		printf("Total water bill=%f kes \n",total_water_bill);
+		printf("Total water bill=%.2f kes \n",total_water_bill);
 		
 	}
 	else{
 		amount_to_pay=30;
 		total_water_bill=water_units_consumed*amount_to_pay;
-		printf("Total water bill= %f- kes \n",total_water_bill);
+		printf("Total water bill= %.2f kes \n",total_water_bill);
 	}
 		
 	
