@@ -24,7 +24,7 @@ int main(){
 	printf("Enter the temperature in fahrenheit: \n");
 	scanf("%d",&temperature);
 	
-	printf("Temperature is:Celsius. %.2f \n",converttoCelsius(temperature));
+	printf("Temperature is: %.2f celsius \n",converttoCelsius(temperature));
 	
 	return 0;
 }
