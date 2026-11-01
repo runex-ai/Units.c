@@ -19,7 +19,7 @@ int main(){
 		fgets(title,  sizeof(title), stdin);
 		
 		FILE * fptr;
-	fptr= fopen("borrowed_books,txt", "a");
+	fptr= fopen("borrowed_books.txt", "a");
 	if(fptr ==NULL){
 		printf("Error opening the file \n");
 		exit(1);
